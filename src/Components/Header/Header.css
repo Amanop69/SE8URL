@@ -1,0 +1,240 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .mainloo {
+        width: 150px;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobbtn {
+        border: none;
+        background-color: #5138ED;
+        padding: 10px 20px;
+        color: #f6f5fa;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .navbar ul {
+        display: none;
+    }
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: #5137EF;
+}
+
+nav ul li button {
+    border: none;
+    background-color: #5138ED;
+    padding: 10px 20px;
+    color: #f6f5fa;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.btn1 {
+    background-color: #f6f5fa;
+    color: black;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(21, 218, 21);
+    color: #ffffff;
+}
+
+.log {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10rem;
+}
+
+@media (max-width: 500px) {
+    .container {display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 13rem;
+    }
+}
+
+.head1 {
+    display: inline-block;
+    color: #071267;
+    font-size: 5rem;
+}
+
+@media (max-width: 500px) {
+    .head1 {
+        display: inline-block;
+        color: #071267;
+        font-size: 3rem;
+    }
+}
+
+.head2 {
+    display: inline-block;
+    padding-left: 10px;
+    color: #5238F0;
+    font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+    .head2 {
+        display: block;
+        padding-left: 2rem;
+        color: #5238F0;
+        font-size: 3rem;
+    }
+}
+
+.head3 {
+    display: inline-block;
+    padding-left: 10px;
+    color: rgb(21, 218, 21);;
+    font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+    .head3 {
+        display: inline-block;
+    padding-left: 0rem;
+    color: rgb(21, 218, 21);;
+    font-size: 3rem;
+    }
+}
+
+.linkarea {
+    border: none;
+    padding: 20px 30px;
+    outline: none;
+}
+
+.link1 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.back {
+    /* background-color: rgb(234, 238, 241); */
+    padding-bottom: 2rem;
+    background-image: linear-gradient(177deg, rgba(254,232,212,1) 13%, rgba(226,232,253,1) 25%, rgba(226,232,253,1) 61%, rgba(194,207,255,1) 78%);
+}
+
+@media (max-width: 500px) { 
+    .back {
+        width: 100%;
+    }
+}
+
+.shdiv {
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -5px 8px 1px #816cd6;
+}
+
+.shbtn {
+    border: none;
+    background-color: #5138ED;
+    padding: 0px 20px;
+    border-radius: 30px;
+    color: #f6f5fa;
+    cursor: pointer;
+}
+
+.paratext {
+    padding: 20px 0px;
+}
+
+.pp1 {
+    width: 70%;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .pp1 {
+        width: 70%;
+        font-weight: 400;
+        font-size: 12px;
+        padding-right: 1rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .shdiv {
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        box-shadow: -5px 8px 1px #816cd6;
+    }
+}
+
+@media (max-width: 500px) {
+    .linkarea {
+        /* width: 55%; */
+        border: none;
+        padding: 10px 10px;
+        outline: none;
+        border-radius: 30px;
+        border-top-left-radius: 20px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .shbtn {
+        border: none;
+        background-color: #5138ED;
+        padding: 0px 8px;
+        border-radius: 30px;
+        color: #f6f5fa;
+        cursor: pointer;
+        margin-right: 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .wwwimg {
+        width: 280px;
+        height: 280px;
+        margin-right: 9rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .link1 {
+        visibility: hidden;
+    }
+}
+

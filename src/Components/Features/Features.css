@@ -1,0 +1,277 @@
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5rem;
+    top: 8rem;
+}
+
+@media (max-width: 500px) {
+    .main {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5rem;
+        top: -40rem;
+        right: 0.5rem;
+    } 
+}
+
+.decor {
+    width: 60%;
+    height: 125vh;
+    position: absolute;
+    border-radius: 20px;
+    /* background-color: #F0F3FB; */
+    /* top: -40px; */
+    background-image: radial-gradient(circle, rgba(226,232,253,1) 0%, rgba(226,232,253,1) 35%, rgba(179,196,255,1) 100%);
+    left: 17rem;
+    z-index: -1;
+    /* box-shadow: 2px 2px 5px rgb(201, 201, 201); */
+}
+
+@media (max-width: 500px) {
+    .decor {
+        width: 82%;
+        height: 125vh;
+        position: relative;
+        border-radius: 20px;
+        left: 1rem;
+        
+        /* margin-right: 2rem; */
+        /* background-color: #F0F3FB; */
+        /* top: -40px; */
+        background-image: radial-gradient(circle, rgba(226,232,253,1) 0%, rgba(226,232,253,1) 35%, rgba(179,196,255,1) 100%);
+        /* right: 17rem; */
+        z-index: -1;
+        /* box-shadow: 2px 2px 5px rgb(201, 201, 201); */
+    }
+
+} 
+
+.discico1 {
+    position: relative;
+    top: 10px;
+    left: 8px;  
+}
+
+.discico2 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+.discico3 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+.discico4 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+.discico5 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+.discico6 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+.discico7 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+
+.discico8 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+
+.discico9 {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+
+
+.fea {
+    position: relative;
+    left: 12rem;
+    top: 80px;
+    width: 50%;
+    color: #5138ED;
+}
+
+@media (max-width: 500px) {
+    .fea {
+        position: relative;
+        /* position: absolute; */
+        top: 5px;
+        width: 50%;
+        left: 3.5rem;
+        color: #5138ED;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 0.3rem;
+    }
+
+} 
+
+.rect {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(201, 201, 201);
+    width: 20%;
+    height: 150px;
+    background-color: #FFFFFF
+}
+
+@media (max-width: 500px) {
+    .rect {
+        margin-bottom: 4rem;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgb(201, 201, 201);
+        width: 70%;
+        height: 150px;
+        background-color: #FFFFFF
+    }
+}
+
+.cir1 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFEBCD;
+    top: -30px;
+    left: 15px;
+}
+
+.cir2 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dafac9;
+    top: -30px;
+    left: 15px;
+}
+
+.cir3 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fdfbfd;
+    top: -30px;
+    left: 15px;
+}
+
+.cir4 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dafac9;
+    top: -30px;
+    left: 15px;
+}
+
+.cir5 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: -30px;
+    left: 15px;
+}
+
+.cir6 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 230, 198);
+    top: -30px;
+    left: 15px;
+}
+
+.cir7 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(210, 255, 216);
+    top: -30px;
+    left: 15px;
+}
+
+.cir8 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(180, 180, 224);
+    top: -30px;
+    left: 15px;
+}
+
+.cir9 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: -30px;
+    left: 15px;
+}
+
+.cd {
+    padding: 0px 20px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 500px) {
+    .cd {
+        padding: 0px 20px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+}    
+
+.pd {
+    padding: 0px 20px;
+    padding-bottom:1rem;
+    font-size: 15px;
+}
+
+@media (max-width: 500px) {
+    .pd {
+        padding: 0px 20px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+}  
+
+.featback {
+    
+}
+
